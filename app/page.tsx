@@ -139,7 +139,7 @@ export default function Home(): React.JSX.Element | null {
       style={{ background: "#080808", fontFamily: "'Syne', sans-serif" }}
     >
       <div className="absolute inset-0 opacity-40 pointer-events-none" style={{
-        backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.15'/%3E%3C/svg%3E")`,
+        backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' [...]
       }} />
       <div className="absolute pointer-events-none" style={{
         width: "700px", height: "700px", borderRadius: "50%",
@@ -201,7 +201,7 @@ export default function Home(): React.JSX.Element | null {
 
       {/* Grain */}
       <div className="fixed inset-0 opacity-25 pointer-events-none z-0" style={{
-        backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.15'/%3E%3C/svg%3E")`,
+        backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' [...]
       }} />
       {/* Ambient glow */}
       <div className="fixed pointer-events-none z-0" style={{
@@ -431,7 +431,7 @@ export default function Home(): React.JSX.Element | null {
 
       {/* FOOTER */}
       <footer className="relative z-10 mt-24 px-4 sm:px-6 lg:px-10 py-6 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-0" style={{ borderTop: "1px solid #141414" }}>
-        <p className="text-xs tracking-widest" style={{ color: "#2a2a2a", fontFamily: "'Syne', sans-serif" }}>SNOOPNFT © 2025</p>
+        <p className="text-xs tracking-widest" style={{ color: "#2a2a2a", fontFamily: "'Syne', sans-serif" }}>SNOOPNFT © 2026</p>
         <p className="text-xs tracking-widest" style={{ color: "#2a2a2a", fontFamily: "'Syne', sans-serif" }}>POWERED BY ETHEREUM</p>
       </footer>
       <div className="h-px w-full" style={{ background: "linear-gradient(90deg, transparent, #808000, transparent)" }} />
